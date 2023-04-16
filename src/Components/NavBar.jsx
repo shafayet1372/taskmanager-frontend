@@ -6,7 +6,7 @@ export default function NavBar() {
     return <nav className="container relative py-3">
         <div className="flex items-center justify-between">
             <Link to="/">
-                <img src={Logo} />
+                Home
             </Link>
             <SearchController />
         </div>
